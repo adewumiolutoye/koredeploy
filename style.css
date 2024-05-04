@@ -1,0 +1,23 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.intro{
+    display: flex;
+    width: 100%;
+}
+
+.human{
+   background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+   background-image: url(./images/bg-pattern-intro-right-mobile.svg);
+   background-repeat: no-repeat;
+   background-color: hsl(256, 26%, 20%);
+   color: white;
+}
